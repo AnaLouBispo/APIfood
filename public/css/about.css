@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    height: 100vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex a{
+    color: #b36a42;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; 
+}
+
+header.rolagem{
+    background-color: #b36a42;
+    padding: 20px 4%; 
+}
+
+header.rolagem a{
+    color: #fff;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fff;
+}
+
+header i{
+    font-size: 60px;
+    color: #b36a42
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #b36a42;
+    text-decoration: none;
+}
+.btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: #fff;
+    background-color:  #fff;
+    color: #b36a42;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.about-us {
+    background-color: #efefef;
+    padding: 50px 0;
+    margin-top:150px;
+}
+
+.about-content {
+    top: 100px;
+    text-align: center;
+}
+
+.about-content h2 {
+    margin-bottom: 30px;
+    color: #b36a42;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer .social-icons a {
+    color: #b36a42;
+    margin: 0 10px;
+}
+
+.footer .social-icons a i {
+    font-size: 24px;
+}
+
+
+.footer {
+    background-color: #efefef;
+    color: #b36a42;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #b36a42;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f4f4f4;
+}
